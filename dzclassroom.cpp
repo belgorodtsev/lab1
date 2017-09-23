@@ -1,9 +1,9 @@
-#include <iostream>
 #include <cmath>
+#include <iostream>
 
 int main()
 
-{   ////1
+{   	////1
 	double pi = 3.14;
 	std::cout << pi << std::endl;
 	////////////
@@ -57,7 +57,7 @@ int main()
 	x1 = -b11 / a11;
 	std::cout << " x = " << x1 << std::endl;
 	//////////
-	
+
 	///////8
 	double x11, x12, y11, y12, d1;
 	std::cout << " write x1" << std::endl;
@@ -66,9 +66,9 @@ int main()
 	std::cin >> y11;
 	std::cout << " write x2" << std::endl;
 	std::cin >> x12;
-	std::cout << " write y2" << std::endl; 
+	std::cout << " write y2" << std::endl;
 	std::cin >> y12;
-	d1= sqrt(((x11 - x12) * ( x11 - x12 ) ) + ( ( y11 - y12 ) * ( y11 - y12 ) ) );
+	d1 = sqrt(((x11 - x12) * (x11 - x12)) + ((y11 - y12) * (y11 - y12)));
 	std::cout << " distance =" << d1 << std::endl;
 	////////
 
@@ -123,7 +123,10 @@ int main()
 	d13 = r * 2;
 	std::cout << " Diameter d = " << d13 << std::endl;
 	/////////
-	
+
 	return 0;
 
 }
+	
+
+	
