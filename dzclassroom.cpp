@@ -23,13 +23,11 @@ int main()
 
 	/////4
 	double b1, b2, b3;
-	std::cout << " write a three numers = " << std::endl;
-	std::cin >> b1;
+	std::cout << " write a three numers = " << std::endl;	std::cin >> b1;
 	std::cin >> b2;
 	std::cin >> b3;
 	std::cout << b1 << " " << b2 << " " << b3 << std::endl;
 	//////////
-
 	//////5
 	double a3, x, y;
 	std::cout << " write a = " << std::endl;
@@ -70,7 +68,7 @@ int main()
 	std::cin >> x12;
 	std::cout << " write y2" << std::endl; 
 	std::cin >> y12;
-	d1= sqrt( ( ( x11 - x12 ) * ( x11 - x12 ) ) + ( ( y11 - y12 ) * ( y11 - y12 ) ) );
+	d1= sqrt(((x11 - x12) * ( x11 - x12 ) ) + ( ( y11 - y12 ) * ( y11 - y12 ) ) );
 	std::cout << " distance =" << d1 << std::endl;
 	////////
 
