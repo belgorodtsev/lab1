@@ -6,6 +6,7 @@ include_directories(SYSTEM
 
 # enum your files
 add_executable(executable
+	dzclassroom.cpp 
 	hello_world.cpp
 )
 
