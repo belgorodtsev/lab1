@@ -49,7 +49,7 @@ int main()
 	std::cin >> mass;
 	std::cout << " write V = " << std::endl;
 	std::cin >> V;
-	p = m / V;
+	density = mass / V;
 	std::cout << " density = " << density << std::endl;
 	//
 	//7
@@ -78,7 +78,7 @@ int main()
 	std::cout << " write coordinateY2" << std::endl;
 	std::cin >> coordinateY2;
 	distance = sqrt(((coordinateX1 - coordinateX2) * (coordinateX1 - coordinateX2)) + ((coordinateY1 - coordinateY2) * (coordinateY1 - coordinateY2)));
-1	std::cout << " distance = " << distance << std::endl;
+	std::cout << " distance = " << distance << std::endl;
 	//
 	//9
 	double titleA = 0;
@@ -126,11 +126,11 @@ int main()
 	//
 	//12
 	int sideA = 0;
-	int perimeter1 = 0;
+	int perimeter = 0;
 	std::cout << " write side A = " << std::endl;
 	std::cin >> sideA;
-	perimeter1 = sideA * 4;
-	std::cout << " Perimeter is p = " << perimeter1 << std::endl;
+	perimeter = sideA * 4;
+	std::cout << " Perimeter is p = " << perimeter << std::endl;
 	//
 	//13
 	int radius = 0;
@@ -142,3 +142,8 @@ int main()
 	//
 	return 0;
 }
+	
+	
+	
+	
+	
