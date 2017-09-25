@@ -7,14 +7,12 @@ int main()
 	double pi = 3.14;
 	std::cout << pi << std::endl;
 	//
-
 	//2
 	int a = 1;
 	int b = 13;
 	int c = 49;
 	std::cout << a << " " << b << " " << c << std::endl;
 	//
-
 	//3
 	char symbol1 = 0;
 	char symbol2 = 0;
@@ -23,7 +21,6 @@ int main()
 	std::cin >> symbol2;
 	std::cout << a << symbol1 << b << symbol2 << c << std::endl;
 	//
-
 	//4
 	double number1 = 0;
 	double number2 = 0;
@@ -45,7 +42,6 @@ int main()
 	y = 3 * x * x * x + 4 * x * x - 11 * x + 1;
 	std::cout << " y = " << y << std::endl;
 	//
-
 	//6
 	double density = 0;
 	double mass = 0;
@@ -57,7 +53,6 @@ int main()
 	p = m / V;
 	std::cout << " density = " << density << std::endl;
 	//
-
 	//7
 	double X;
 	double coefficientA = 0;
@@ -69,7 +64,6 @@ int main()
 	X = -coefficientB / coefficientA;
 	std::cout << " X = " << X << std::endl;
 	//
-
 	//8
 	double coordinateX1 = 0;
 	double coordinateX2 = 0;
@@ -87,7 +81,6 @@ int main()
 	distance = sqrt(((coordinateX1 - coordinateX2) * (coordinateX1 - coordinateX2)) + ((coordinateY1 - coordinateY2) * (coordinateY1 - coordinateY2)));
 	std::cout << " distance = " << distance << std::endl;
 	//
-
 	//9
 	double titleA = 0;
 	double titleB = 0;
@@ -106,7 +99,6 @@ int main()
 	perimeter = titleA + titleB + 2 * side;
 	std::cout << " Perimeter is p = " << perimeter << std::endl;
 	//
-
 	//10
 	double radius1 = 0;
 	double radius2 = 0;
@@ -122,7 +114,6 @@ int main()
 	area = area2 - area1;
 	std::cout << " area = " << area << std::endl;
 	//
-
 	//11
 	double edgeCube = 0;
 	double VCube = 0;
@@ -134,7 +125,6 @@ int main()
 	std::cout << " cube volume V = " << VCube << std::endl;
 	std::cout << " Surface area = " << SurfaceAreaCube << std::endl;
 	//
-
 	//12
 	int sideA = 0;
 	int perimeter = 0;
@@ -143,7 +133,6 @@ int main()
 	perimeter = sideA * 4;
 	std::cout << " Perimeter is p = " << perimeter << std::endl;
 	//
-
 	//13
 	int radius = 0;
 	int diameter = 0;
@@ -152,7 +141,5 @@ int main()
 	diameter = radius * 2;
 	std::cout << " Diameter d = " << diameter << std::endl;
 	//
-
 	return 0;
-
 }
