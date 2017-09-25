@@ -96,7 +96,7 @@ int main()
 	sideX = (titleB - titleA) / 2;
 	side = sqrt(sideX * sideX + heightH * heightH);
 	perimeter = titleA + titleB + 2 * side;
-	std::cout << " Perimeter is p = " << perimeter << std::endl;
+1	std::cout << " Perimeter is p = " << perimeter << std::endl;
 	//
 	//10
 	double radius1 = 0;
@@ -126,11 +126,11 @@ int main()
 	//
 	//12
 	int sideA = 0;
-	int perimeter = 0;
+	int perimeter1 = 0;
 	std::cout << " write side A = " << std::endl;
 	std::cin >> sideA;
-	perimeter = sideA * 4;
-	std::cout << " Perimeter is p = " << perimeter << std::endl;
+	perimeter1 = sideA * 4;
+	std::cout << " Perimeter is p = " << perimeter1 << std::endl;
 	//
 	//13
 	int radius = 0;
