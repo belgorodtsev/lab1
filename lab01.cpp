@@ -9,119 +9,148 @@ int main()
 	//
 
 	//2
-	int a = 1, b = 13, c = 49;
+	int a = 1;
+	int b = 13;
+	int c = 49;
 	std::cout << a << " " << b << " " << c << std::endl;
 	//
 
 	//3
-	char a1, a2;
+	char symbol1 = 0;
+	char symbol2 = 0;
 	std::cout << " write a symbol = " << std::endl;
-	std::cin >> a1;
-	std::cin >> a2;
-	std::cout << a << a1 << b << a2 << c << std::endl;
+	std::cin >> symbol1;
+	std::cin >> symbol2;
+	std::cout << a << symbol1 << b << symbol2 << c << std::endl;
 	//
 
 	//4
-	double b1, b2, b3;
-	std::cout << " write a three numers = " << std::endl;	std::cin >> b1;
-	std::cin >> b2;
-	std::cin >> b3;
-	std::cout << b1 << " " << b2 << " " << b3 << std::endl;
+	double number1 = 0;
+	double number2 = 0;
+	double number3 = 0;
+	std::cout << " write a three numbers = " << std::endl;
+	std::cin >> number1;
+	std::cin >> number2;
+	std::cin >> number3;
+	std::cout << number1 << " " << number2 << " " << number3 << std::endl;
 	//
 	//5
-	double a3, x, y;
+	double numberA = 0;
+	double x = 0;
+	double y = 0;
 	std::cout << " write a = " << std::endl;
-	std::cin >> a3;
-	x = 12 * a3 * a3 + 7 * a3 - 12;
+	std::cin >> a;
+	x = 12 * numberA * numberA + 7 * numberA - 12;
 	std::cout << " x = " << x << std::endl;
 	y = 3 * x * x * x + 4 * x * x - 11 * x + 1;
 	std::cout << " y = " << y << std::endl;
 	//
 
 	//6
-	double p, m, V;
-	std::cout << " write m = " << std::endl;
-	std::cin >> m;
+	double density = 0;
+	double mass = 0;
+	double V = 0; 
+	std::cout << " write mass = " << std::endl;
+	std::cin >> mass;
 	std::cout << " write V = " << std::endl;
 	std::cin >> V;
 	p = m / V;
-	std::cout << " p = " << p << std::endl;
+	std::cout << " density = " << density << std::endl;
 	//
 
 	//7
-	double x1, a11, b11;
-	std::cout << " write a = " << std::endl;
-	std::cin >> a11;
-	std::cout << " write b = " << std::endl;
-	std::cin >> b11;
-	x1 = -b11 / a11;
-	std::cout << " x = " << x1 << std::endl;
+	double X;
+	double coefficientA = 0;
+	double coefficientB = 0;
+	std::cout << " write coefficientA = " << std::endl;
+	std::cin >> coefficientA;
+	std::cout << " write coefficientB = " << std::endl;
+	std::cin >> coefficientB;
+	X = -coefficientB / coefficientA;
+	std::cout << " X = " << X << std::endl;
 	//
 
 	//8
-	double x11, x12, y11, y12, d1;
-	std::cout << " write x1" << std::endl;
-	std::cin >> x11;
-	std::cout << " write y1" << std::endl;
-	std::cin >> y11;
-	std::cout << " write x2" << std::endl;
-	std::cin >> x12;
-	std::cout << " write y2" << std::endl;
-	std::cin >> y12;
-	d1 = sqrt(((x11 - x12) * (x11 - x12)) + ((y11 - y12) * (y11 - y12)));
-	std::cout << " distance =" << d1 << std::endl;
+	double coordinateX1 = 0;
+	double coordinateX2 = 0;
+	double coordinateY1 = 0;
+	double coordinateY2 = 0;
+	double distance = 0;
+	std::cout << " write coordinateX1" << std::endl;
+	std::cin >> coordinateX1;
+	std::cout << " write coordinateY1" << std::endl;
+	std::cin >> coordinateY1;
+	std::cout << " write coordinateX2" << std::endl;
+	std::cin >> coordinateX2;
+	std::cout << " write coordinateY2" << std::endl;
+	std::cin >> coordinateY2;
+	distance = sqrt(((coordinateX1 - coordinateX2) * (coordinateX1 - coordinateX2)) + ((coordinateY1 - coordinateY2) * (coordinateY1 - coordinateY2)));
+	std::cout << " distance = " << distance << std::endl;
 	//
 
 	//9
-	double a9, b9, c9, h9, x9, p9;
-	std::cout << " Enter the title a = " << std::endl;
-	std::cin >> a9;
-	std::cout << " Enter the title b = " << std::endl;
-	std::cin >> b9;
-	std::cout << " Enter the height h = " << std::endl;
-	std::cin >> h9;
-	x9 = (b9 - a9) / 2;
-	c9 = sqrt(x9 * x9 + h9 * h9);
-	p9 = a9 + b9 + 2 * c9;
-	std::cout << " Perimeter is p = " << p9 << std::endl;
+	double titleA = 0;
+	double titleB = 0;
+	double heightH = 0;
+	double perimeter = 0;
+	double side = 0;
+	double sideX = 0;
+	std::cout << " Enter the title A = " << std::endl;
+	std::cin >> titleA;
+	std::cout << " Enter the title B = " << std::endl;
+	std::cin >> titleB;
+	std::cout << " Enter the height H = " << std::endl;
+	std::cin >> heightH;
+	sideX = (titleB - titleA) / 2;
+	side = sqrt(sideX * sideX + heightH * heightH);
+	perimeter = titleA + titleB + 2 * side;
+	std::cout << " Perimeter is p = " << perimeter << std::endl;
 	//
 
 	//10
-	double r1, r2, s, s1, s2;
+	double radius1 = 0;
+	double radius2 = 0;
+	double area = 0;
+	double area1 = 0;
+	double area2 = 0;
 	std::cout << " write inner radius r1 = " << std::endl;
-	std::cin >> r1;
+	std::cin >> radius1;
 	std::cout << " write outer radius r2 = " << std::endl;
-	std::cin >> r2;
-	s1 = pi * r1 * r1;
-	s2 = pi * r2 * r2;
-	s = s2 - s1;
-	std::cout << " s = " << s << std::endl;
+	std::cin >> radius2;
+	area1 = pi * radius1 * radius1;
+	area2 = pi * radius2 * radius2;
+	area = area2 - area1;
+	std::cout << " area = " << area << std::endl;
 	//
 
 	//11
-	double a111, Vk, sb;
-	std::cout << " write a = " << std::endl;
-	std::cin >> a111;
-	Vk = a111 * a111 * a111;
-	sb = 6 * a111 * a111;
-	std::cout << " cube volume V = " << Vk << std::endl;
-	std::cout << " Surface area = " << sb << std::endl;
+	double edgeCube = 0;
+	double VCube = 0;
+	double SurfaceAreaCube = 0;
+	std::cout << " write edge cube = " << std::endl;
+	std::cin >> edgeCube;
+	VCube = edgeCube * edgeCube * edgeCube;
+	SurfaceAreaCube = 6 * edgeCube * edgeCube;
+	std::cout << " cube volume V = " << VCube << std::endl;
+	std::cout << " Surface area = " << SurfaceAreaCube << std::endl;
 	//
 
 	//12
-	int a12, p12;
-	std::cout << " write a = " << std::endl;
-	std::cin >> a12;
-	p12 = a12 * 4;
-	std::cout << " Perimeter is p = " << p12 << std::endl;
+	int sideA = 0;
+	int perimeter = 0;
+	std::cout << " write side A = " << std::endl;
+	std::cin >> sideA;
+	perimeter = sideA * 4;
+	std::cout << " Perimeter is p = " << perimeter << std::endl;
 	//
 
 	//13
-	int r, d13;
+	int radius = 0;
+	int diameter = 0;
 	std::cout << " Radius r = " << std::endl;
-	std::cin >> r;
-	d13 = r * 2;
-	std::cout << " Diameter d = " << d13 << std::endl;
+	std::cin >> radius;
+	diameter = radius * 2;
+	std::cout << " Diameter d = " << diameter << std::endl;
 	//
 
 	return 0;
