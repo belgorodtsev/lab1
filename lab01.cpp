@@ -34,11 +34,9 @@ int main()
 	std::cout << " write a = " << std::endl;
 	double numberA = 0;
 	std::cin >> a;
-	double x = 0;
-	x = 12 * numberA * numberA + 7 * numberA - 12;
+	double x = 12 * numberA * numberA + 7 * numberA - 12;
 	std::cout << " x = " << x << std::endl;
-	double y = 0;
-	y = 3 * x * x * x + 4 * x * x - 11 * x + 1;
+	double y = 3 * x * x * x + 4 * x * x - 11 * x + 1;
 	std::cout << " y = " << y << std::endl;
 	//
 	//6
@@ -48,8 +46,7 @@ int main()
 	std::cout << " write V = " << std::endl;
 	double V = 0;
 	std::cin >> V;
-	double density = 0;
-	density = mass / V;
+	double density = mass / V;
 	std::cout << " density = " << density << std::endl;
 	//
 	//7
@@ -59,8 +56,7 @@ int main()
 	std::cout << " write coefficientB = " << std::endl;
 	double coefficientB = 0;
 	std::cin >> coefficientB;
-	double X = 0;
-	X = -coefficientB / coefficientA;
+	double X = -coefficientB / coefficientA;
 	std::cout << " X = " << X << std::endl;
 	//
 	//8
@@ -76,8 +72,7 @@ int main()
 	std::cout << " write coordinateY2" << std::endl;
 	double coordinateY2 = 0;
 	std::cin >> coordinateY2;
-	double distance = 0;
-	distance = sqrt(((coordinateX1 - coordinateX2) * (coordinateX1 - coordinateX2)) + ((coordinateY1 - coordinateY2) * (coordinateY1 - coordinateY2)));
+	double distance = sqrt(((coordinateX1 - coordinateX2) * (coordinateX1 - coordinateX2)) + ((coordinateY1 - coordinateY2) * (coordinateY1 - coordinateY2)));
 	std::cout << " distance = " << distance << std::endl;
 	//
 	//9
@@ -90,12 +85,9 @@ int main()
 	std::cout << " Enter the height H = " << std::endl;
 	double heightH = 0;
 	std::cin >> heightH;
-	double sideX = 0;
-	sideX = (titleB - titleA) / 2;
-	double side = 0;
-	side = sqrt(sideX * sideX + heightH * heightH);
-	double perimeter = 0;
-	perimeter = titleA + titleB + 2 * side;
+	double sideX = (titleB - titleA) / 2;
+	double side = sqrt(sideX * sideX + heightH * heightH);
+	double perimeter = titleA + titleB + 2 * side;
 	std::cout << " Perimeter is p = " << perimeter << std::endl;
 	//
 	//10
@@ -105,12 +97,9 @@ int main()
 	std::cout << " write outer radius r2 = " << std::endl;
 	double radius2 = 0;
 	std::cin >> radius2;
-	double area1 = 0;
-	area1 = pi * radius1 * radius1;
-	double area2 = 0;
-	area2 = pi * radius2 * radius2;
-	double area = 0;
-	area = area2 - area1;
+	double area1 = pi * radius1 * radius1;
+	double area2 = pi * radius2 * radius2;
+	double area = area2 - area1;
 	std::cout << " area = " << area << std::endl;
 	//
 	//11
@@ -119,8 +108,7 @@ int main()
 	std::cin >> edgeCube;
 	double VCube = 0;
 	VCube = edgeCube * edgeCube * edgeCube;
-	double SurfaceAreaCube = 0;
-	SurfaceAreaCube = 6 * edgeCube * edgeCube;
+	double SurfaceAreaCube = 6 * edgeCube * edgeCube;
 	std::cout << " cube volume V = " << VCube << std::endl;
 	std::cout << " Surface area = " << SurfaceAreaCube << std::endl;
 	//
@@ -128,16 +116,14 @@ int main()
 	std::cout << " write side A = " << std::endl;
 	int sideA = 0;
 	std::cin >> sideA;
-	int perimeter1 = 0;
-	perimeter1 = sideA * 4;
+	int perimeter1 = sideA * 4;
 	std::cout << " Perimeter is p = " << perimeter1 << std::endl;
 	//
 	//13
 	std::cout << " Radius r = " << std::endl;
 	int radius = 0;
 	std::cin >> radius;
-	int diameter = 0;
-	diameter = radius * 2;
+	int diameter = radius * 2;
 	std::cout << " Diameter d = " << diameter << std::endl;
 	//
 	return 0;
